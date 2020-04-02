@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(12px);
   color: white;
 }
 
@@ -39,4 +39,14 @@
 .tank {
   color: red;
   display: inline;
+}
+
+.alert {
+  color: red;
+}
+.canvas {
+  border: black;
+  border-width: 5px;
+  border-style: solid;
+  background-color: blue;
 }
