@@ -5,7 +5,10 @@ const Header = props => {
   return (
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
-      <p>Highest Score: {props.maxFish} fish</p>
+      <p>
+        The goal is to get the most fish! Your highest score: {props.maxFish}{" "}
+        fish
+      </p>
     </header>
   );
 };
